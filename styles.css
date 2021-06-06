@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+.heading {
+  background-color: rgba(6, 56, 221, 0.89);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.list {
+  color: olivedrab;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  height: 2.5rem;
+  bottom: 0;
+  width: 100%;
+  color: #ccc;
+  text-align: center;
+}
+.note {
+  background: #fff;
+  width: 240px;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 16px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
